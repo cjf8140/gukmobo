@@ -3,7 +3,7 @@
 body {
   font-family: "Nanum Myeongjo", serif;
   background-image: url("https://cdn.discordapp.com/attachments/881464671071272984/1157863936591396935/bg.png?ex=651a2852&is=6518d6d2&hm=c4faa5d644b937cb91fbde7ab7341f09c99de90dd020b65f31e6832f70237614&");
-  width: 1080px;
+  width: 1000px;
 /*   background-size: cover; */
 
   background-repeat: no-repeat;
@@ -49,9 +49,9 @@ input {
   text-align: center;
 }
 .good {
-  position: absolute;
-  left: 280px;
-  top: 5px;
+  position: relative;
+/*   left: 280px;
+  top: -73px; */
   background-color: transparent;
   border: none;
   font-size: 50px;
