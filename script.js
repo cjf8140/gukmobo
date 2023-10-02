@@ -1,7 +1,8 @@
 const remainTime = document.querySelector("#clock");
 const flower = document.querySelector("#wheel");
 let degree =0;                                      
-                                      
+
+
 function diffDay() {
   const str = document.getElementById("two").value;
   const arr = str.split(/[. :]/).map(Number);
