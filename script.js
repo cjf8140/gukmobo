@@ -19,8 +19,11 @@ function diffDay() {
 function rot() {
     flower.style.rotate = `${degree}deg`;
     degree += 15;
+    if(degree > 7200) {
+        degree = 0;
+    }
 }
 diffDay();
 rot();
 setInterval(diffDay, 1000);
-// setInterval(rot, 100);
+setInterval(rot, 100);
