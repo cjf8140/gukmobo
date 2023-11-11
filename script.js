@@ -23,4 +23,4 @@ function rot() {
 diffDay();
 rot();
 setInterval(diffDay, 1000);
-setInterval(rot, 100);
+// setInterval(rot, 100);
